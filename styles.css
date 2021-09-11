@@ -4,15 +4,12 @@ html * {
     color: #333333;
 }
 
-.page--flex {
-    padding: 2vh 2vw;
-    display: flex;
-    flex-direction: column;
-    height: 100vw;
-}
-
 .inconsolata {
     font-family: "Inconsolata", monospace;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .f--size24 {
@@ -39,28 +36,40 @@ html * {
     color: #ffffff;
 }
 
-.img-centered {
-    display: block;
-    max-width: 80%;
-    height: auto;
-    align-self: center;
-}
-
 .bg-color-black {
     background-color: #333333;
 }
 
-.btn {
-    margin-top: 4vh;
-    width: 60vw;
-    height: 8vh;
+@media screen and (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .scarecrow {
+        padding-top: 5vh;
+        display: block;
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+    }
+    .page--flex {
+        padding: 2vh 5vw;
+        display: flex;
+        flex-direction: column;
+        height: 100vw;
+    }
+    .message>* {
+        margin-top: 6vh;
+    }
+    .btn {
+        margin-top: 4vh;
+        width: 40vw;
+        height: 8vh;
+    }
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 600px) {
+    .btn {
+        width: 60vw;
+    }
 }
