@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.page--flex {
+    padding: 0vw 2vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+}
+
+html * {
+    font-family: "Space Mono";
+    color: #333333;
+}
+
+.inconsolata {
+    font-family: "Inconsolata";
+}
+
+.f--size24 {
+    font-size: 24px;
+}
+
+.f--size48 {
+    font-size: 48px;
+}
+
+.f--size18 {
+    font-size: 18px;
+}
+
+.f--weight-bold {
+    font-weight: bold;
+}
+
+.f--weight-normal {
+    font-weight: normal;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.img-centered {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+}
+
+.bg-color-black {
+    background-color: #333333;
+}
+
+.btn {
+    margin-top: 4vh;
+    width: 60vw;
+    height: 8vh;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
