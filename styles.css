@@ -12,7 +12,7 @@ html * {
 }
 
 .inconsolata {
-    font-family: "'Inconsolata', monospace" !important;
+    font-family: "Inconsolata", monospace;
 }
 
 .f--size24 {
