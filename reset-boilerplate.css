@@ -147,7 +147,7 @@ em {
 }
 
 li {
-    list-style: none
+    list-style: none;
 }
 
 hr {
@@ -174,7 +174,7 @@ pre {
 }
 
 q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
+    quotes: "\201C""\201D""\2018""\2019";
 }
 
 small {
@@ -293,6 +293,3 @@ table {
 td {
     vertical-align: top;
 }
-
-Leave a comment © 2021 GitHub,
-Inc. Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About
